@@ -1,6 +1,11 @@
 # J0FFT
 A python based code to extract the dark recombination current density at metal contacts (J0c) in half metallised solar cells.
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
 # Extracting Contact Recombination from FFT-filtered Photoluminescence Imaging
 
 ## Photoluminescence Imaging (PLI)
