@@ -19,9 +19,8 @@ The primary analytical method involves converting spatial photoluminescence data
 ### Key Steps:
 1. **Transform to Frequency Domain**:
    - PL line profiles are converted into the frequency domain using FFT:
-     \(
-     X_k = \sum_{n=0}^{N-1} x_n e^{-i 2\pi k n / N}
-     \)
+    
+     $X_k = \sum_{n=0}^{N-1} x_n e^{-i 2\pi k n / N}$
      
      where:
      - $X_k$: Frequency domain representation.
@@ -32,9 +31,7 @@ The primary analytical method involves converting spatial photoluminescence data
    - A selective filter isolates the fundamental spatial frequency of the metallisation pattern.
    - Noise and higher harmonics are suppressed by applying a rectangular window:
   
-     $$
-     \text{Filtered sim\_PL\_signal} = \text{FFT}^{-1}(X_k \cdot W_k)
-     $$     
+     $\text{Filtered sim_PL_signal} = \text{FFT}^{-1}(X_k \cdot W_k)$
   
      where $W_k$ is the filter window.
 
