@@ -19,9 +19,9 @@ The primary analytical method involves converting spatial photoluminescence data
 ### Key Steps:
 1. **Transform to Frequency Domain**:
    - PL line profiles are converted into the frequency domain using FFT:
-     /(
+     \(
      X_k = \sum_{n=0}^{N-1} x_n e^{-i 2\pi k n / N}
-     /)
+     \)
      
      where:
      - $X_k$: Frequency domain representation.
