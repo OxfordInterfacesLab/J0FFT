@@ -1,4 +1,4 @@
-# J0FFT
+# J0FFT - run 'J0FFT_v1.ipynb'
 A python based code to extract the dark recombination current density at metal contacts (J0c) in half metallised solar cells.
 
 # Extracting Contact Recombination from FFT-filtered Photoluminescence Imaging
